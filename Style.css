@@ -1,0 +1,1035 @@
+:root {
+    /* =========================
+        Brand Identity
+    ========================= */
+    --primary: #6D5AE6;
+    --primary-hover: #5B4BC7;
+    --primary-active: #4C3EAA;
+    --primary-soft: #EEEAFE;
+
+    --secondary: #0F766E;
+    --secondary-hover: #0D9488;
+    --secondary-active: #0B5E58;
+    --secondary-soft: #E6F7F5;
+
+    --accent: #D97706;
+    --accent-hover: #B45309;
+    --accent-active: #92400E;
+    --accent-soft: #FFF4E5;
+
+    /* =========================
+        Backgrounds & Surfaces
+    ========================= */
+    --bg: #F4F3F8;
+    --bg-soft: #EFEDF5;
+    --surface: #FCFCFD;
+    --surface-2: #F7F6FB;
+    --surface-3: #EFEAFB;
+
+    /* =========================
+        Text Colors
+    ========================= */
+    --text: #1F2430;
+    --text-muted: #5E6573;
+    --text-soft: #8B93A6;
+    --text-inverse: #FFFFFF;
+
+    /* =========================
+        Borders & Lines
+    ========================= */
+    --border: #DDD8EA;
+    --border-soft: #EAE6F2;
+    --border-strong: #C8C0DC;
+
+    /* =========================
+        Links
+    ========================= */
+    --link: #5B4BC7;
+    --link-hover: #4C3EAA;
+    --link-visited: #6B21A8;
+
+    /* =========================
+        Buttons
+    ========================= */
+    --btn-primary-bg: var(--primary);
+    --btn-primary-hover: var(--primary-hover);
+    --btn-primary-active: var(--primary-active);
+    --btn-primary-text: #FFFFFF;
+
+    --btn-secondary-bg: var(--surface);
+    --btn-secondary-hover: var(--surface-2);
+    --btn-secondary-active: #ECE8F7;
+    --btn-secondary-text: var(--text);
+    --btn-secondary-border: var(--border);
+
+    --btn-accent-bg: var(--accent);
+    --btn-accent-hover: var(--accent-hover);
+    --btn-accent-active: var(--accent-active);
+    --btn-accent-text: #FFFFFF;
+
+    /* =========================
+        Status Colors
+    ========================= */
+    --success: #15803D;
+    --success-hover: #166534;
+    --success-soft: #EAF7EE;
+    --success-border: #B7E2C3;
+
+    --error: #DC2626;
+    --error-hover: #B91C1C;
+    --error-soft: #FDECEC;
+    --error-border: #F5B9B9;
+
+    --warning: #D97706;
+    --warning-hover: #B45309;
+    --warning-soft: #FFF4E5;
+    --warning-border: #F3D19C;
+
+    --info: #2563EB;
+    --info-hover: #1D4ED8;
+    --info-soft: #EAF1FF;
+    --info-border: #B8CCF8;
+
+    /* =========================
+        Tags / Badges
+    ========================= */
+    --tag-frontend-bg: #EAE7FF;
+    --tag-frontend-text: #4C3EAA;
+
+    --tag-programming-bg: #E6F7F5;
+    --tag-programming-text: #0B5E58;
+
+    --tag-tools-bg: #FFF4E5;
+    --tag-tools-text: #B45309;
+
+    --tag-softskills-bg: #F3F4F6;
+    --tag-softskills-text: #4B5563;
+
+    /* =========================
+        Shadows
+    ========================= */
+    --shadow-sm: 0 2px 8px rgba(31, 36, 48, 0.06);
+    --shadow-md: 0 8px 20px rgba(31, 36, 48, 0.08);
+    --shadow-lg: 0 16px 32px rgba(31, 36, 48, 0.10);
+    --shadow-sm-primary: 0 0px 8px var(--primary);
+    --shadow-md-primary: 0 0px 20px var(--primary);
+    --shadow-lg-primary: 0 0px 32px var(--primary);
+
+    /* =========================
+        Selection
+    ========================= */
+    --selection-bg: #DCD6FF;
+    --selection-text: #241B52;
+
+    /* =========================
+        Scrollbar
+    ========================= */
+    --scrollbar-track: #ECE8F4;
+    --scrollbar-thumb: #C6BEDF;
+    --scrollbar-thumb-hover: #AEA3CF;
+
+    /* =========================
+        Form Elements
+    ========================= */
+    --input-bg: #FFFFFF;
+    --input-text: var(--text);
+    --input-placeholder: #8B93A6;
+    --input-border: #D8D2E8;
+    --input-border-focus: var(--primary);
+    --input-shadow-focus: 0 0 0 4px rgba(109, 90, 230, 0.12);
+
+    /* =========================
+        Navigation
+    ========================= */
+    --nav-bg: rgba(252, 252, 253, 0.97);
+    --nav-border: rgba(221, 216, 234, 0.9);
+    --nav-link: var(--text);
+    --nav-link-hover: var(--primary);
+    --nav-link-active: var(--primary);
+
+    /* =========================
+        Footer
+    ========================= */
+    --footer-bg: #ECE8F4;
+    --footer-text: #3D4452;
+    --footer-muted: #6B7280;
+    --footer-border: #D8D2E8;
+
+    /* =========================
+        Special Sections
+    ========================= */
+    --hero-gradient: linear-gradient(135deg, #6D5AE6 0%, #0F766E 100%);
+    --section-title: #241B52;
+    --highlight: #F4E8FF;
+}
+
+.dark {
+    /* =========================
+        Brand Identity
+    ========================= */
+    --primary: #8B7CFF;
+    --primary-hover: #7A6AF0;
+    --primary-active: #6959DB;
+    --primary-soft: #221B45;
+
+    --secondary: #14B8A6;
+    --secondary-hover: #0D9488;
+    --secondary-active: #0B7A72;
+    --secondary-soft: #112F2D;
+
+    --accent: #F59E0B;
+    --accent-hover: #D97706;
+    --accent-active: #B45309;
+    --accent-soft: #3A2A12;
+
+    /* =========================
+        Backgrounds & Surfaces
+    ========================= */
+    --bg: #0D111C;
+    --bg-soft: #121826;
+    --surface: #161C2B;
+    --surface-2: #1C2436;
+    --surface-3: #232C42;
+
+    /* =========================
+        Text Colors
+    ========================= */
+    --text: #F5F7FB;
+    --text-muted: #C1C8D6;
+    --text-soft: #8A93A8;
+    --text-inverse: #0D111C;
+
+    /* =========================
+        Borders & Lines
+    ========================= */
+    --border: #2A3348;
+    --border-soft: #232B3D;
+    --border-strong: #3A4560;
+
+    /* =========================
+        Links
+    ========================= */
+    --link: #9C8DFF;
+    --link-hover: #B1A5FF;
+    --link-visited: #C084FC;
+
+    /* =========================
+        Buttons
+    ========================= */
+    --btn-primary-bg: var(--primary);
+    --btn-primary-hover: var(--primary-hover);
+    --btn-primary-active: var(--primary-active);
+    --btn-primary-text: #FFFFFF;
+
+    --btn-secondary-bg: var(--surface-2);
+    --btn-secondary-hover: var(--surface-3);
+    --btn-secondary-active: #2B3550;
+    --btn-secondary-text: var(--text);
+    --btn-secondary-border: var(--border);
+
+    --btn-accent-bg: var(--accent);
+    --btn-accent-hover: var(--accent-hover);
+    --btn-accent-active: var(--accent-active);
+    --btn-accent-text: #111827;
+
+    /* =========================
+        Status Colors
+    ========================= */
+    --success: #22C55E;
+    --success-hover: #16A34A;
+    --success-soft: #112A1B;
+    --success-border: #245235;
+
+    --error: #F87171;
+    --error-hover: #EF4444;
+    --error-soft: #331818;
+    --error-border: #6C2E2E;
+
+    --warning: #FBBF24;
+    --warning-hover: #F59E0B;
+    --warning-soft: #3B2A12;
+    --warning-border: #6A4A18;
+
+    --info: #60A5FA;
+    --info-hover: #3B82F6;
+    --info-soft: #18263E;
+    --info-border: #294A76;
+
+    /* =========================
+        Tags / Badges
+    ========================= */
+    --tag-frontend-bg: #241F4D;
+    --tag-frontend-text: #C7BEFF;
+
+    --tag-programming-bg: #14302E;
+    --tag-programming-text: #7BE0D5;
+
+    --tag-tools-bg: #3B2A12;
+    --tag-tools-text: #FFD48A;
+
+    --tag-softskills-bg: #2B3140;
+    --tag-softskills-text: #D1D5DB;
+
+    /* =========================
+        Shadows
+    ========================= */
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.22);
+    --shadow-md: 0 8px 20px rgba(0, 0, 0, 0.28);
+    --shadow-lg: 0 16px 32px rgba(0, 0, 0, 0.36);
+
+    /* =========================
+        Selection
+    ========================= */
+    --selection-bg: #3D3276;
+    --selection-text: #F8FAFC;
+
+    /* =========================
+        Scrollbar
+    ========================= */
+    --scrollbar-track: #151B29;
+    --scrollbar-thumb: #39445E;
+    --scrollbar-thumb-hover: #4B5877;
+
+    /* =========================
+        Form Elements
+    ========================= */
+    --input-bg: #111827;
+    --input-text: var(--text);
+    --input-placeholder: #8A93A8;
+    --input-border: #2B3550;
+    --input-border-focus: var(--primary);
+    --input-shadow-focus: 0 0 0 4px rgba(139, 124, 255, 0.16);
+
+    /* =========================
+        Navigation
+    ========================= */
+    --nav-bg: rgba(22, 28, 43, 0.99);
+    --nav-border: rgba(42, 51, 72, 0.90);
+    --nav-link: var(--text);
+    --nav-link-hover: var(--primary);
+    --nav-link-active: var(--primary);
+
+    /* =========================
+        Footer
+    ========================= */
+    --footer-bg: #111827;
+    --footer-text: #E5E7EB;
+    --footer-muted: #9CA3AF;
+    --footer-border: #2A3348;
+
+    /* =========================
+    Special Sections
+    ========================= */
+    --hero-gradient: linear-gradient(135deg, #8B7CFF 0%, #14B8A6 100%);
+    --section-title: #F3F4F6;
+    --highlight: #211B42;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+}
+
+::selection {
+    background-color: var(--selection-bg);
+    color: var(--secondary-hover);
+}
+
+body {
+    font-size: 23px;
+    font-family: "Inter", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    display: flex;
+    flex-flow: column;
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--link)
+}
+
+ul>li {
+    list-style: none;
+}
+
+
+/*---------------------------------------------------*/
+nav {
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    background-color: var(--nav-bg);
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .list {
+    width: 45%;
+}
+
+nav .list ul {
+    margin-left: -50px;
+    display: flex;
+    flex-flow: row nowrap;
+    width: 700px;
+}
+
+nav .logo {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}
+
+nav .logo a {
+    font-weight: 550;
+    font-size: 20px;
+}
+
+nav .list ul li {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    padding: 10px;
+    position: relative;
+}
+
+nav .list .before::before {
+    position: absolute;
+    content: "";
+    height: 60%;
+    width: 1px;
+    background-color: var(--primary);
+    border-radius: 15px;
+    top: 20%;
+    left: 0;
+}
+
+nav .logo a {
+    padding: 10px 20px;
+}
+
+nav .list ul li:hover,
+nav .logo a:hover {
+    background-color: var(--primary-soft);
+    border-radius: 5px;
+
+}
+
+nav a:active {
+    color: var(--accent)
+}
+
+.icon {
+    max-width: 44px;
+    display: block;
+}
+
+/*---------------------------------------------------*/
+
+main {
+    margin-top: 40px;
+}
+
+
+main header {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 65px 0 200px;
+}
+
+main header .left {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    width: 50%;
+}
+
+
+.left h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+main header .name {
+    color: var(--primary-active);
+    margin: -10px 0 10px;
+}
+
+main header .left h3 {
+    margin: 0 0 10px;
+}
+
+main header ul {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 40%;
+    margin-top: 25px;
+}
+
+main header .left .links div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    background-color: var(--primary);
+    border-radius: 50%;
+}
+
+main .links img {
+    border-radius: 50%;
+}
+
+main header .left .links div:hover {
+    box-shadow: var(--shadow-md-primary);
+    background-color: var(--primary-soft);
+    transform: translateY(-3px);
+    transition: 0.2s;
+}
+
+main header .left .links div:hover img {
+    background-color: var(--btn-primary-hover);
+
+}
+
+main header .left .links div:active img:active {
+    background-color: var(--accent);
+}
+
+
+
+main header ul img:hover {
+    border-radius: 50%;
+    background-color: var(--primary-hover);
+}
+
+
+main header h3 {
+    margin-bottom: 7px;
+}
+
+main header p {
+    line-height: 1.7;
+}
+
+main header .right img {
+    height: 450px;
+    justify-content: flex-start;
+    border: solid var(--info-border) 10px;
+    border-radius: 30%;
+}
+
+
+/*---------------------------------------------------*/
+
+/* main contianers */
+.about,
+.skills,
+.project,
+.cont {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    margin: 0px 0 200px;
+}
+
+.about {
+    margin-bottom: 300px;
+}
+
+/* headers */
+main .about .header,
+main .skills .header,
+main .project .header,
+.cont .header {
+    margin: 0 0 30px 100px;
+    color: var(--primary);
+}
+
+
+main .about .contianer,
+.project .contianer,
+.cont .contianer {
+    display: flex;
+    flex-flow: row;
+}
+
+
+
+main .about .contianer {
+    justify-content: space-around;
+    height: 350px;
+    width: 90%;
+    align-self: center;
+    padding: 0 20px 20px;
+}
+
+main .about .basic_info {
+    background-color: var(--primary-soft);
+    display: flex;
+    flex-flow: column;
+    border-radius: 10px;
+    padding: 20px 30px 30px;
+    width: 40%;
+    height: fit-content;
+    float: left;
+}
+
+main .about .basic_info h3 {
+    margin-bottom: 5px;
+    color: var(--success);
+}
+
+main .about .basic_info p {
+    margin-bottom: 20px;
+}
+
+main .about .basic_info ul {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 60px;
+}
+
+main .about .basic_info ul li {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+main .about .basic_info ul li .icon {
+    margin-right: 10px;
+    height: 20px;
+}
+
+main .about .basic_info ul li #location {
+    margin-right: 9px;
+    margin-left: -3px;
+    height: 24px;
+}
+
+
+
+main .about .about_info {
+    background-color: var(--primary-soft);
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column;
+    border-radius: 10px;
+    padding: 30px 30px 40px;
+}
+
+main .about .about_info .edu h3,
+main .about .about_info .bio h3 {
+    margin-bottom: 10px;
+    color: var(--primary);
+}
+
+
+main .about .about_info .bio p {
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+/*------------------------------------------*/
+
+
+main .skills .contianer {
+    background-color: var(--border-soft);
+    display: flex;
+    width: 84%;
+    margin-left: 10px;
+    justify-self: flex-start;
+    align-self: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+main .skills .skills-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    width: 100%;
+}
+
+.skills-list li {
+    padding: 10px;
+    width: 100%;
+    /* background-color: var(--border-strong); */
+    /* border: 1px solid var(--border); */
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: var(--shadow-sm);
+    transition: 0.3s ease;
+}
+
+main .skills .skills-list li:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-md);
+    border-right: 7px solid var(--secondary-hover);
+    border-left: 7px solid var(--secondary-hover);
+}
+
+
+main .skills .skills-list li p {
+    font-weight: 600;
+    color: var(--text);
+    line-height: 1.5;
+}
+
+main .skills .skills-list li span {
+    width: fit-content;
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+
+/* Categories */
+.skills .frontend-category {
+    background-color: var(--tag-frontend-bg);
+    color: var(--tag-frontend-text);
+    border-left: 4px solid var(--tag-frontend-text);
+}
+
+.skills .programming-category {
+    background-color: var(--tag-programming-bg);
+    color: var(--tag-programming-text);
+    border-left: 4px solid var(--tag-programming-text);
+}
+
+.skills .backend-category {
+    background-color: var(--info-soft);
+    color: var(--info);
+    border-left: 4px solid var(--info);
+}
+
+.skills .tools-category {
+    background-color: var(--tag-tools-bg);
+    color: var(--tag-tools-text);
+    border-left: 4px solid var(--tag-tools-text);
+}
+
+.skills .softskills-category {
+    background-color: var(--tag-softskills-bg);
+    color: var(--tag-softskills-text);
+    border-left: 4px solid var(--tag-softskills-text);
+}
+
+
+/*--------------------------------------------*/
+
+
+
+
+
+.project .contianer {
+    width: 83%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    align-self: center;
+}
+
+.project .contianer .projectCard {
+    border: 3px solid transparent;
+    background-color: var(--surface);
+    padding: 15px;
+    border-radius: 15px;
+    transition: 0.5s ease;
+}
+
+.projectCard .cover {
+    display: flex;
+    flex-flow: column;
+    background-color: var(--surface-2);
+    padding: 7px;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.projectCard .cover .banner {
+    height: 60%;
+    width: calc(100%);
+    border-radius: 10px;
+}
+
+.projectCard .cover .detials {
+    padding: 20px;
+    height: 30%;
+    display: flex;
+    flex-flow: column;
+    gap: 10%;
+}
+
+
+
+/*------ ul ------*/
+.projectCard .cover .detials ul {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: auto;
+    font-size: 15px;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+.project .contianer .projectCard .cover .detials ul li {
+    background-color: var(--surface-3);
+    border-radius: 5px;
+    padding: 2px 13px;
+}
+
+.project .contianer .projectCard .cover .detials ul .frontend-category {
+    background-color: var(--tag-frontend-bg);
+    color: var(--tag-frontend-text);
+    border-left: 2px solid var(--tag-frontend-text);
+}
+
+.project .contianer .projectCard .cover .detials ul .programming-category {
+    background-color: var(--tag-programming-bg);
+    color: var(--tag-programming-text);
+    border-left: 2px solid var(--tag-programming-text);
+}
+
+.project .contianer .projectCard .cover .detials ul .backend-category {
+    background-color: var(--info-soft);
+    color: var(--info);
+    border-left: 2px solid var(--info);
+}
+
+.project .contianer .projectCard .cover .detials ul .tools-category {
+    background-color: var(--tag-tools-bg);
+    color: var(--tag-tools-text);
+    border-left: 2px solid var(--tag-tools-text);
+}
+
+.project .contianer .projectCard .cover .detials ul .softskills-category {
+    background-color: var(--tag-softskills-bg);
+    color: var(--tag-softskills-text);
+    border-left: 2px solid var(--tag-softskills-text);
+}
+
+
+
+
+
+.projectCard .cover .project-links a {
+    color: var(--surface);
+    font-size: 18px;
+    font-weight: 100;
+    width: 122px;
+    display: flex;
+    flex-flow: row;
+    background-color: var(--primary);
+    justify-content: space-between;
+    border-radius: 7px;
+    align-items: center;
+    padding: 2px 15px;
+    margin-top: 22px;
+}
+
+.projectCard .cover .project-links a:hover {
+    background-color: var(--primary-hover);
+}
+
+.projectCard .cover .project-links a:active {
+    background-color: var(--primary-active);
+    color: var(--secondary-active)
+}
+
+
+.projectCard .cover .project-links a img {
+    width: 23px;
+    height: 23px;
+}
+
+
+.projectCard:hover {
+    border-color: var(--primary);
+    box-shadow: var(--shadow-sm-primary);
+    transform: translateY(-10px);
+}
+
+
+
+
+/* ------------------------------------------------------*/
+
+
+.cont {
+    margin-bottom: 5px;
+    row-gap: 20px;
+}
+
+.cont .header {
+    margin: 0 0 30px 100px;
+    color: var(--primary);
+}
+
+.cont .contianer {
+    justify-content: center;
+    gap: 20px;
+}
+
+.cont form {
+    /* background-color: var(--primary-soft); */
+    align-self: center;
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    padding: 0 10px 10px;
+}
+
+.cont form h5 {
+    font-size: 17px;
+}
+
+.cont form label {
+    margin-left: 40px;
+    margin-bottom: 5px;
+}
+
+.cont form input,
+.cont form textarea {
+    align-self: center;
+    padding-left: 20px;
+    height: 45px;
+    width: 90%;
+    outline: none;
+    border: none;
+    /* border: 2px solid var(--border-strong); */
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.cont form textarea {
+    resize: none;
+    height: 170px;
+    padding-top: 10px;
+}
+
+[value="Send Message"] {
+    color: var(--btn-accent-text);
+    font-size: 18px;
+    background-color: var(--btn-primary-bg);
+    cursor: pointer;
+}
+
+[value="Send Message"]:hover {
+    background-color: var(--btn-primary-hover);
+}
+
+
+.cont form textarea:focus,
+.cont form input:focus {
+    border: 2px solid var(--primary);
+}
+
+
+.cont .cont-info {
+    display: flex;
+    flex-flow: column;
+    border-radius: 10px;
+    background-color: var(--primary-soft);
+    align-self: flex-start;
+    padding: 20px;
+    padding-left: 40px;
+    width: 37%;
+}
+
+.cont .cont-info .text label {
+    color: var(--text-muted);
+
+}
+
+.cont .cont-info .text p {
+    margin-top: -5px;
+}
+
+
+/*----------------------------------*/
+
+footer img {
+    width: 24px;
+}
+
+footer {
+    font-size: 18px;
+    display: flex;
+    flex-flow: column;
+    margin: 0;
+    background-color: var(--footer-bg);
+    height: 250px;
+    padding: 0 90px;
+    justify-content: space-around;
+}
+
+footer .up {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+
+
+footer .right {
+    display: flex;
+    flex-flow: column;
+    justify-self: flex-start;
+}
+
+footer .left {
+    display: flex;
+    flex-flow: column;
+
+    align-items: center;
+}
+
+footer .left h3 {
+    margin-bottom: 10px;
+    ;
+}
+
+footer .left ul {
+    display: flex;
+    flex-flow: row;
+    gap: 20px;
+}
+
+footer .down-center {
+    font-size: 14px;
+    display: flex;
+    flex-flow: column;
+    justify-self: center;
+    align-self: center;
+}
