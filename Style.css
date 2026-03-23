@@ -689,13 +689,6 @@ main .skills .skills-list {
     transition: 0.3s ease;
 }
 
-main .skills .skills-list li:hover {
-    transform: translateY(-4px);
-    box-shadow: var(--shadow-md);
-    border-right: 7px solid var(--secondary-hover);
-    border-left: 7px solid var(--secondary-hover);
-}
-
 
 main .skills .skills-list li p {
     font-weight: 600;
@@ -742,6 +735,46 @@ main .skills .skills-list li span {
     color: var(--tag-softskills-text);
     border-left: 4px solid var(--tag-softskills-text);
 }
+
+
+
+
+main .skills .skills-list .frontend-category:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-md);
+    border-right: 7px solid var(--tag-frontend-text);
+    border-left: 7px solid var(--tag-frontend-text);
+}
+
+main .skills .skills-list .programming-category:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-md);
+    border-right: 7px solid var(--tag-programming-text);
+    border-left: 7px solid var(--tag-programming-text);
+}
+
+main .skills .skills-list .backend-category:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-md);
+    border-right: 7px solid var(--info);
+    border-left: 7px solid var(--info);
+}
+
+main .skills .skills-list .tools-category:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-md);
+    border-right: 7px solid var(--tag-tools-text);
+    border-left: 7px solid var(--tag-tools-text);
+}
+
+main .skills .skills-list .softskills-category:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-md);
+    border-right: 7px solid var(--tag-softskills-text);
+    border-left: 7px solid var(--tag-softskills-text);
+}
+
+
 
 
 /*--------------------------------------------*/
