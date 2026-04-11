@@ -811,7 +811,7 @@ main .skills .skills-list .softskills-category:hover {
 }
 
 .projectCard .cover .banner {
-    height: 60%;
+    height: 200px;
     width: calc(100%);
     border-radius: 10px;
 }
@@ -897,7 +897,7 @@ main .skills .skills-list .softskills-category:hover {
 
 .projectCard .cover .project-links a:active {
     background-color: var(--primary-active);
-    color: var(--secondary-active)
+    color: var(--accent);
 }
 
 
