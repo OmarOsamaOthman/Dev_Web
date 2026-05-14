@@ -8,7 +8,7 @@ The website highlights my experience in web development, programming, and proble
 
 ## 🌐 Live Demo
 
-[Coming soon...
+[Live Demo
 ](https://triple-o-home.netlify.app/)
 ---
 
