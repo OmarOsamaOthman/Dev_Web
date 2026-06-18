@@ -7,8 +7,6 @@ window.onscroll = function () {
     }
     else {
         upButton.classList.remove("show");
-
-
     }
 
     upButton.addEventListener("click", function () {
