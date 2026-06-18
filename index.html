@@ -4,413 +4,461 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Omar Osama</title>
-    <link rel="stylesheet" href="Style.css">
-    <link rel="icon" type="image/png" sizes="64x64" href="  img/page-icon.png">
     <meta name="description"
         content="Omar Osama - Computer Science student and frontend developer. Explore my projects, skills, and experience in web development and programming.">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>Omar Osama</title>
+
+    <link rel="stylesheet" href="Style.css">
+    <link rel="icon" type="image/png" sizes="64x64" href="  img/page-icon.png">
+    <link
+        href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
 </head>
 
 <body id="home">
-    <nav>
-        <section class="logo">
+    <header>
+        <div class="logo">
             <a href="">OOO.dev</a>
-        </section>
+        </div>
 
-        <section class="list">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about" class="before">About</a></li>
-                <li><a href="#skills" class="before">Skills</a></li>
-                <li><a href="#projects" class="before">Projects</a></li>
-                <li><a href="#contact" class="before">Contact</a></li>
-            </ul>
-        </section>
-    </nav>
+        <nav class="list">
+            <a href="#home">Home</a>
+            <a href="#about" class="before">About</a>
+            <a href="#skills" class="before">Skills</a>
+            <a href="#projects" class="before">Projects</a>
+            <a href="#contact" class="before">Contact</a>
+        </nav>
+    </header>
+
     <div class="scrole-up">
-        Up
+        <i class="fa-solid fa-arrow-up-long"></i>
     </div>
 
-    <main>
-        <header>
-            <div class="left">
-                <p>Hello, I'm</p>
 
-                <h1 class="name">Omar Osama</h1>
+    <section class="section-1">
+        <div class="left">
+            <p>Hello, I'm</p>
 
-                <h2>Computer Science Student | Frontend Developer</h2>
-                <p class="summary">Computer Science student and frontend developer passionate about building clean,
-                    user-friendly web
-                    experiences and improving problem-solving skills.</p>
-                <ul class="links">
-                    <li>
-                        <div>
-                            <a href="https://github.com/OmarOsamaOthman" target="_blank">
-                                <img src="https://cdn-icons-png.flaticon.com/128/2111/2111432.png" alt="github-icon"
-                                    class="icon">
-                            </a>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <a href="https://www.linkedin.com/in/%D8%B9%D9%85%D8%B1-%D8%A3%D8%B3%D8%A7%D9%85%D8%A9-a51604363/"
-                                target="_blank">
-                                <img src="https://cdn-icons-png.flaticon.com/128/1384/1384014.png" alt="linkedin-icon"
-                                    class="icon">
-                            </a>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <a href="mailto:omarinoosama@gmail.com">
-                                <img src="https://cdn-icons-png.flaticon.com/128/3178/3178165.png" alt="mail-icon"
-                                    class="icon">
-                            </a>
-                        </div>
-                    </li>
-                </ul>
+            <h2 class="name">Omar Osama</h2>
+
+            <h3>Computer Science Student | Frontend Developer</h3>
+            <p class="summary">Computer Science student and frontend developer passionate about building clean,
+                user-friendly web
+                experiences and improving problem-solving skills.</p>
+            <div class="links">
+                <a href="https://github.com/OmarOsamaOthman" target="_blank">
+                    <i class="fa-brands fa-square-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/%D8%B9%D9%85%D8%B1-%D8%A3%D8%B3%D8%A7%D9%85%D8%A9-a51604363/"
+                    target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="mailto:omarinoosama@gmail.com">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+
             </div>
-            <div class="right">
-                <img src="img/my-photo.jpg" alt="profile-image" height="450px" width="342.3px">
-            </div>
-        </header>
+        </div>
+        <div class="right">
+            <img src="img/my-photo.jpg" alt="profile-image" height="450px" width="342.3px">
+        </div>
+    </section>
 
 
-        <section class="about" id="about">
-            <h2 class="header">About Me</h2>
-            <div class="contianer">
-                <div class="basic_info">
-                    <h3>Omar Osama Othman Ismail</h3>
-                    <p>Frontend Dev. | Competitive Programmer</p>
-                    <ul>
-                        <li>
-                            <img src="https://cdn-icons-png.flaticon.com/128/2838/2838912.png" alt="location-icon"
-                                class="icon" id="location">
-                            <span> Cairo, Egypt </span>
-                        </li>
-                        <li>
-                            <img src="https://cdn-icons-png.flaticon.com/128/3799/3799743.png" alt="age-icon"
-                                class="icon">
-                            <span>20 Years Old</span>
-                        </li>
-                    </ul>
+    <section class="about-section" id="about">
+        <h2 class="header">About Me</h2>
+        <div class="contianer">
+            <div class="basic_info">
+                <h3>Omar Osama Othman Ismail</h3>
+                <p>Frontend Dev. | Competitive Programmer</p>
+                <div class="row">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span> Cairo, Egypt </span>
                 </div>
-                <div class="about_info">
-
-                    <div class="bio">
-                        <h3>Bio</h3>
-                        <p>I am a Computer Science student and frontend developer focused on building clean,
-                            user-friendly
-                            websites. I enjoy learning new technologies, improving my programming skills, and solving
-                            problems through code.
-                        </p>
-                    </div>
-
-                    <div class="edu">
-                        <h3>Education</h3>
-                        <h4>Cairo University</h4>
-                        <p>Bachelor of Computer Science</p>
-                        <p>2024 - 2028</p>
-                    </div>
+                <div class="row">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <span>20 Years Old</span>
                 </div>
             </div>
-        </section>
 
-        <section class="skills" id="skills">
-            <h2 class="header">My Skills</h2>
 
-            <div class="contianer">
-                <ul class="skills-list">
-                    <li class="frontend-category">
+            <div class="about_info">
+                <div class="bio">
+                    <h3>Bio</h3>
+                    <p>I am a Computer Science student and frontend developer focused on building clean,
+                        user-friendly
+                        websites. I enjoy learning new technologies, improving my programming skills, and solving
+                        problems through code.
+                    </p>
+                </div>
+
+                <div class="edu">
+                    <h3>Education</h3>
+                    <h4>Cairo University</h4>
+                    <p>Bachelor of Computer Science</p>
+                    <p>2024 - 2028</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills-section" id="skills">
+        <h2 class="header">My Skills</h2>
+
+        <div class="contianer">
+            <ul class="skills-list">
+                <li class="frontend-category">
+                    <div class="texts">
                         <p>HTML5</p>
                         <span>Frontend</span>
-                    </li>
+                    </div>
+                    <div class="skill-logo">
+                        <i class="fa-brands fa-html5"></i>
+                    </div>
+                </li>
 
-                    <li class="frontend-category">
+                <li class="frontend-category">
+                    <div class="texts">
                         <p>CSS3</p>
                         <span>Frontend</span>
-                    </li>
+                    </div>
+                    <div class="skill-logo">
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+                </li>
 
-                    <li class="frontend-category">
-                        <p>JavaScript (ES6)</p>
+                <li class="frontend-category">
+                    <div class="texts">
+                        <p>JavaScript</p>
                         <span>Frontend</span>
-                    </li>
+                    </div>
+                    <div class="skill-logo">
+                        <i class="fa-brands fa-square-js"></i>
+                    </div>
+                </li>
 
-                    <li class="programming-category">
+                <li class="programming-category">
+                    <div class="texts">
                         <p>C++</p>
                         <span>Programming</span>
-                    </li>
+                    </div>
+                    <div class="skill-logo">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
+                            viewBox="0 0 50 50">
+                            <path
+                                d="M 43.910156 12.003906 L 27.070313 2.539063 C 25.792969 1.824219 24.207031 1.824219 22.929688 2.539063 L 6.089844 12.003906 C 4.800781 12.726563 4 14.082031 4 15.535156 L 4 34.464844 C 4 35.917969 4.800781 37.273438 6.089844 37.996094 L 22.929688 47.460938 C 23.570313 47.820313 24.285156 48 25 48 C 25.714844 48 26.429688 47.820313 27.070313 47.460938 L 43.910156 37.996094 C 45.199219 37.273438 46 35.917969 46 34.464844 L 46 15.535156 C 46 14.082031 45.199219 12.726563 43.910156 12.003906 Z M 25 37 C 18.382813 37 13 31.617188 13 25 C 13 18.382813 18.382813 13 25 13 C 28.78125 13 32.273438 14.753906 34.542969 17.742188 L 30.160156 20.277344 C 28.84375 18.835938 26.972656 18 25 18 C 21.140625 18 18 21.140625 18 25 C 18 28.859375 21.140625 32 25 32 C 26.972656 32 28.84375 31.164063 30.160156 29.722656 L 34.542969 32.257813 C 32.273438 35.246094 28.78125 37 25 37 Z M 37 26 L 35 26 L 35 28 L 33 28 L 33 26 L 31 26 L 31 24 L 33 24 L 33 22 L 35 22 L 35 24 L 37 24 Z M 44 26 L 42 26 L 42 28 L 40 28 L 40 26 L 38 26 L 38 24 L 40 24 L 40 22 L 42 22 L 42 24 L 44 24 Z">
+                            </path>
+                        </svg>
 
-                    <li class="programming-category">
+                    </div>
+                </li>
+
+                <li class="programming-category">
+                    <div class="texts">
                         <p>Python</p>
                         <span>Programming</span>
-                    </li>
+                    </div>
+                    <div class="skill-logo">
+                        <i class="fa-brands fa-python"></i>
+                    </div>
+                </li>
 
-                    <li class="programming-category">
+                <li class="programming-category">
+                    <div class="texts">
                         <p>Java</p>
                         <span>Programming</span>
-                    </li>
+                    </div>
+                    <div class="skill-logo">
+                        <i class="fa-brands fa-java"></i>
+                    </div>
 
-                    <li class="programming-category">
+                </li>
+
+                <li class="programming-category">
+                    <div class="texts">
                         <p>OOP</p>
                         <span>Programming</span>
-                    </li>
+                    </div>
+                    <div class="skill-logo">
+                        <i class="fa-solid fa-code"></i>
 
-                    <li class="programming-category">
+                    </div>
+                </li>
+
+                <li class="programming-category">
+                    <div class="texts">
                         <p>Data Structures</p>
                         <span>Programming</span>
-                    </li>
+                    </div>
+                    <div class="skill-logo">
+                        <i class="fa-solid fa-chart-diagram"></i>
 
-                    <li class="backend-category">
+                    </div>
+                </li>
+
+                <li class="backend-category">
+                    <div class="texts">
                         <p>SQL</p>
                         <span>Backend</span>
-                    </li>
+                    </div>
+                    <div class="skill-logo">
+                        <i class="fa-solid fa-database"></i>
+
+                    </div>
+                </li>
 
 
-                    <li class="tools-category">
+                <li class="tools-category">
+                    <div class="texts">
                         <p>GitHub</p>
                         <span>Tools</span>
-                    </li>
+                    </div>
+                    <div class="skill-logo">
+                        <i class="fa-brands fa-github"></i>
 
-                    <li class="tools-category">
+                    </div>
+                </li>
+
+                <li class="tools-category">
+                    <div class="texts">
                         <p>VS Code</p>
                         <span>Tools</span>
-                    </li>
+                    </div>
+                    <div class="skill-logo">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                </li>
 
-                    <li class="tools-category">
+                <li class="tools-category">
+                    <div class="texts">
                         <p>Code::Blocks</p>
                         <span>Tools</span>
-                    </li>
+                    </div>
+                    <div class="skill-logo">
+                        <i class="fa-brands fa-microsoft"></i>
 
-                    <li class="softskills-category">
+                    </div>
+                </li>
+
+                <li class="softskills-category">
+                    <div class="texts">
                         <p>Problem Solving</p>
                         <span>Soft Skills</span>
-                    </li>
+                    </div>
+                    <div class="skill-logo">
+                        <i class="fa-solid fa-bug"></i>
 
-                    <li class="softskills-category">
-                        <p>Team Collaboration</p>
+                    </div>
+                </li>
+
+                <li class="softskills-category">
+                    <div class="texts">
+                        <p>Collaboration</p>
                         <span>Soft Skills</span>
-                    </li>
+                    </div>
+                    <div class="skill-logo">
+                        <i class="fa-solid fa-users-line"></i>
 
-                    <li class="softskills-category">
+                    </div>
+                </li>
+
+                <li class="softskills-category">
+                    <div class="texts">
                         <p>Communication</p>
                         <span>Soft Skills</span>
-                    </li>
+                    </div>
+                    <div class="skill-logo">
+                        <i class="fa-regular fa-comments"></i>
 
-                    <li class="softskills-category">
+                    </div>
+                </li>
+
+                <li class="softskills-category">
+                    <div class="texts">
                         <p>Time Management</p>
                         <span>Soft Skills</span>
-                    </li>
+                    </div>
+                    <div class="skill-logo">
+                        <i class="fa-solid fa-user-clock"></i>
+                    </div>
+                </li>
 
+            </ul>
+        </div>
+    </section>
+
+
+    <section class="project-section" id="projects">
+        <h2 class="header">Projects</h2>
+
+        <div class="contianer">
+            <div class="projectCard">
+                <div class="cover">
+                    <img src="img/image-filter-banner.png" alt="Image Filters" class="banner">
+                    <div class="detials">
+                        <h3>Image Filters</h3>
+                        <div class="tech-stack">
+                            <ul>
+                                <li class="programming-category">C++</li>
+                                <li class="programming-category">OOP</li>
+                                <li class="softskills-category">Team Collaboration</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://github.com/OmarOsamaOthman/CS213-3Art-Image-Filters-Application"
+                                aria-label="View Image Filters project on GitHub" target="_blank">
+                                <i class="fa-brands fa-github" alt="github-icon"></i>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projectCard">
+                <div class="cover">
+
+                    <img src="img/Audio_Player_banner_1.png" alt="Audio Player" class="banner">
+                    <div class="detials">
+
+                        <h3>Audio Player</h3>
+                        <div class="tech-stack">
+                            <ul>
+                                <li class="programming-category">C++</li>
+                                <li class="programming-category">OOP</li>
+                                <li class="softskills-category">Team Collaboration</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://github.com/zyadcs50/Audio_player_project" target="_blank"
+                                aria-label="View Audio Player project on GitHub">
+                                <i class="fa-brands fa-github" alt="github-icon"></i>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projectCard">
+                <div class="cover">
+                    <img src="img/tic-tac-toe-banner.png" alt="Ultimate Tic Tac Toe Collection" class="banner">
+                    <div class="detials">
+                        <h3>Tic Tac Toe Collection</h3>
+                        <div class="tech-stack">
+                            <ul>
+                                <li class="programming-category">C++</li>
+                                <li class="programming-category">OOP</li>
+                                <li class="softskills-category">Team Collaboration</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://github.com/sayedjm7/CS213_Assignment3" target="_blank"
+                                aria-label="View Ultimate Tic Tac Toe Collection project on GitHub">
+                                <i class="fa-brands fa-github" alt="github-icon"></i>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="projectCard">
+                <div class="cover">
+                    <img src="img/ATM_System-banner.png" alt="ATM System" class="banner">
+                    <div class="detials">
+                        <h3>ATM System</h3>
+                        <div class="tech-stack">
+                            <ul>
+                                <li class="programming-category">Java</li>
+                                <li class="programming-category">OOP</li>
+                                <li class="softskills-category">Time management</li>
+                            </ul>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://github.com/OmarOsamaOthman/ATM_Semulation_System" target="_blank"
+                                aria-label="View Ultimate Tic Tac Toe Collection project on GitHub">
+                                <i class="fa-brands fa-github" alt="github-icon"></i>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="cont-section" id="contact">
+
+        <h2 class="header">Contact Me</h2>
+        <div class="contianer">
+
+            <form action="">
+                <label for="name">Name:</label>
+                <input name="name" id="name" type="text" required p>
+                <label for="email">Email:</label>
+                <input name="email" id="email" type="email" required>
+                <label for="message">Message:</label>
+                <textarea name="message" id="message"></textarea>
+                <input type="submit" value="Send Message">
+            </form>
+
+            <div class="cont-info">
+                <h3>Contact Information</h3>
+                <ul class="con-info">
+                    <li>
+                        <div class="text" id="sttext">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p id="Email">omarinoosama159@gmail.com</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="text">
+                            <i class="fa-solid fa-phone"></i>
+                            <p id="phone-number">+20 100 8728863</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="text">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p id="location">Cairo, Egypt</p>
+                        </div>
+                    </li>
                 </ul>
             </div>
-        </section>
+        </div>
 
+    </section>
 
-        <section class="project" id="projects">
-            <h2 class="header">Projects</h2>
-
-            <div class="contianer">
-                <div class="projectCard">
-                    <div class="cover">
-
-                        <img src="img/image-filter-banner.png" alt="Image Filters" class="banner">
-                        <div class="detials">
-                            <h3>Image Filters</h3>
-                            <div class="tech-stack">
-                                <ul>
-                                    <li class="programming-category">C++</li>
-                                    <li class="programming-category">OOP</li>
-                                    <li class="softskills-category">Team Collaboration</li>
-                                </ul>
-                            </div>
-
-                            <div class="project-links">
-                                <a href="https://github.com/OmarOsamaOthman/CS213-3Art-Image-Filters-Application"
-                                    aria-label="View Image Filters project on GitHub" target="_blank">
-                                    <img src="https://cdn-icons-png.flaticon.com/128/2111/2111432.png" alt="github-icon"
-                                        class="icon">
-                                    GitHub
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="projectCard">
-                    <div class="cover">
-
-                        <img src="img/Audio_Player_banner_1.png" alt="Audio Player" class="banner">
-                        <div class="detials">
-
-                            <h3>Audio Player</h3>
-                            <div class="tech-stack">
-                                <ul>
-                                    <li class="programming-category">C++</li>
-                                    <li class="programming-category">OOP</li>
-                                    <li class="softskills-category">Team Collaboration</li>
-                                </ul>
-                            </div>
-
-                            <div class="project-links">
-                                <a href="https://github.com/zyadcs50/Audio_player_project" target="_blank"
-                                    aria-label="View Audio Player project on GitHub">
-                                    <img src="https://cdn-icons-png.flaticon.com/128/2111/2111432.png" alt="github-icon"
-                                        class="icon">
-                                    GitHub
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="projectCard">
-                    <div class="cover">
-                        <img src="img/tic-tac-toe-banner.png" alt="Ultimate Tic Tac Toe Collection" class="banner">
-                        <div class="detials">
-                            <h3>Tic Tac Toe Collection</h3>
-                            <div class="tech-stack">
-                                <ul>
-                                    <li class="programming-category">C++</li>
-                                    <li class="programming-category">OOP</li>
-                                    <li class="softskills-category">Team Collaboration</li>
-                                </ul>
-                            </div>
-
-                            <div class="project-links">
-                                <a href="https://github.com/sayedjm7/CS213_Assignment3" target="_blank"
-                                    aria-label="View Ultimate Tic Tac Toe Collection project on GitHub">
-                                    <img src="https://cdn-icons-png.flaticon.com/128/2111/2111432.png" alt="github-icon"
-                                        class="icon">GitHub
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="projectCard">
-                    <div class="cover">
-                        <img src="img/ATM_System-banner.png" alt="ATM System" class="banner">
-                        <div class="detials">
-                            <h3>ATM System</h3>
-                            <div class="tech-stack">
-                                <ul>
-                                    <li class="programming-category">Java</li>
-                                    <li class="programming-category">OOP</li>
-                                    <li class="softskills-category">Time management</li>
-                                </ul>
-                            </div>
-
-                            <div class="project-links">
-                                <a href="https://github.com/OmarOsamaOthman/ATM_Semulation_System" target="_blank"
-                                    aria-label="View Ultimate Tic Tac Toe Collection project on GitHub">
-                                    <img src="https://cdn-icons-png.flaticon.com/128/2111/2111432.png" alt="github-icon"
-                                        class="icon">GitHub
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <section class="cont" id="contact">
-
-            <h2 class="header">Contact Me</h2>
-            <div class="contianer">
-
-                <form action="">
-
-                    <label for="name">Name:</label>
-                    <input name="name" id="name" type="text" required p>
-                    <label for="email">Email:</label>
-                    <input name="email" id="email" type="email" required>
-                    <label for="message">Message:</label>
-                    <textarea name="message" id="message"></textarea>
-                    <input type="submit" value="Send Message">
-                </form>
-
-                <div class="cont-info">
-                    <h3>Contact Information</h3>
-                    <ul class="con-info">
-                        <li>
-                            <img src="" alt="">
-                            <div class="text">
-                                <label>Email</label>
-                                <p id="Email">omarinoosama159@gmail.com</p>
-                            </div>
-                        </li>
-                        <li>
-                            <img src="" alt="">
-                            <div class="text">
-                                <label>Phone</label>
-                                <p id="phone-number">+20 100 8728863</p>
-                            </div>
-                        </li>
-                        <li>
-                            <img src="" alt="">
-                            <div class="text">
-                                <label>Location</label>
-                                <p id="location">Cairo, Egypt</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-        </section>
-
-    </main>
 
 
     <footer>
         <div class="up">
-
-            <div class="right">
+            <div class="left">
                 <h3>Omar Osama</h3>
                 <p>Frontend Developer & Computer Science Student</p>
             </div>
 
-
-            <!-- <ul class="quick-links">
-                <li><a href="#home">home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul> -->
-
-            <div class="left">
+            <div class="right">
                 <h3>contact me</h3>
                 <ul>
-                    <li>
-                        <a href="" target="_blank">
-                            <img src="https://cdn-icons-png.flaticon.com/128/4138/4138166.png" alt="facebook-icon"
-                                class="icon" height="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/OmarOsamaOthman" target="_blank">
-                            <img src="https://cdn-icons-png.flaticon.com/128/2111/2111432.png" alt="GitHub-icon"
-                                class="icon">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="mailto:omarinoosama@gmail.com">
-                            <img src="https://cdn-icons-png.flaticon.com/128/3178/3178165.png" alt="Email-icon"
-                                class="icon">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/%D8%B9%D9%85%D8%B1-%D8%A3%D8%B3%D8%A7%D9%85%D8%A9-a51604363/"
-                            target="_blank"><img src="https://cdn-icons-png.flaticon.com/128/1384/1384014.png"
-                                alt="linkedin-icon" class="icon"></a>
-                    </li>
+                    <li><a href="" target="_blank"><i class="fa-brands fa-square-facebook"></i></a></li>
+                    <li><a href="https://github.com/OmarOsamaOthman" target="_blank">
+                            <i class="fa-brands fa-square-github"></i></a></li>
+                    <li><a href="mailto:omarinoosama@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/%D8%B9%D9%85%D8%B1-%D8%A3%D8%B3%D8%A7%D9%85%D8%A9-a51604363/"
+                            target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -418,7 +466,9 @@
         <div class="down-center">
             <p>&copy; 2026 Omar Osama — Built with passion for web development.</p>
         </div>
+
     </footer>
+
     <script src="script.js"></script>
 </body>
 
